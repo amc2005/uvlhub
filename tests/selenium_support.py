@@ -1,4 +1,4 @@
-"""Driver and host resolution for the e2e layer.
+"""Driver and host resolution for the e2e .
 
 Since splent_framework 1.7.1 the framework itself can drive a Selenium Grid:
 ``initialize_driver`` attaches to ``SELENIUM_GRID_URL`` over
