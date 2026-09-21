@@ -7,7 +7,7 @@ from app import _apply_database_port
 
 pytestmark = pytest.mark.unit
 
-MYSQL = "mysql+pymysql://uvlhubdb_user:uvlhubdb_password@db.example:3306/uvlhubdb"
+MYSQL = "mysql+pymysql://uvlhubdb_user:uvlhubdb_password@db.example:3306/uvlhubdb" 
 
 
 def _app_with(uri):
